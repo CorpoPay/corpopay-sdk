@@ -2,6 +2,14 @@
   "name": "@corpopay/sdk",
   "version": "0.1.0",
   "description": "CorpoPay TypeScript SDK — generated, type-safe client for the CorpoPay payments API.",
+  "homepage": "https://corpopay.site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CorpoPay/corpopay-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CorpoPay/corpopay-sdk/issues"
+  },
   "type": "module",
   "license": "MIT",
   "private": false,

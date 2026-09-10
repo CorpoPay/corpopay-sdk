@@ -1,6 +1,8 @@
 # @corpopay/sdk
 
-Type-safe TypeScript SDK for the [CorpoPay](https://github.com/CorpoPay) payments
+[![Website](https://img.shields.io/badge/website-corpopay.site-6e3ff6)](https://corpopay.site)
+
+Type-safe TypeScript SDK for the [CorpoPay](https://corpopay.site) payments
 API. The client is **generated** from the API's OpenAPI contract (`@corpopay/contract`)
 with [`@hey-api/openapi-ts`](https://heyapi.dev), then bundled into a single ESM + CJS
 artifact consumable from Node, serverless runtimes, and bundlers.
