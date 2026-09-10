@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+openapi-ts-error-*.log
+.DS_Store
+coverage/
+*.tsbuildinfo

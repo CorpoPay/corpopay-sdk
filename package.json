@@ -1,0 +1,42 @@
+{
+  "name": "@corpopay/sdk",
+  "version": "0.1.0",
+  "description": "CorpoPay TypeScript SDK — generated, type-safe client for the CorpoPay payments API.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "generate": "openapi-ts",
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "prepack": "npm run generate && npm run build"
+  },
+  "dependencies": {
+    "@corpopay/contract": "^0.38.0",
+    "@hey-api/client-fetch": "^0.13.1"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.99.0",
+    "@types/node": "^24.0.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.4.0",
+    "vitest": "^4.0.0"
+  }
+}
